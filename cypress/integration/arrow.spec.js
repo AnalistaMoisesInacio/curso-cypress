@@ -1,22 +1,22 @@
 it('nada agora', function(){})
-   // function soma(a,b) {
-       // return a + b;
-   // }
 
-  // const soma = function(a,b){
-     //  return a+b;
-  // }
+    function soma(a,b) {
+        return a + b;
+    }
 
-  //arrow function basicas
+   const soma = function(a,b){
+       return a+b;
+    }
 
- // const soma = (a,b) =>{
-      //return a+b;
-  //}
+   //arrow function basicas
+  const soma = (a,b) =>{
+      return a+b;
+    }
 
- // const soma = (a,b) => a + b;
+  const soma = (a,b) => a + b;
 
 
-     //Entre chaves precisa do "return"
+    //Entre chaves precisa do "return"
    const soma = (a,b) => {
         return a + b;
     }
